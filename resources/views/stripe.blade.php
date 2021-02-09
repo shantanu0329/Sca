@@ -46,7 +46,7 @@
         // See your keys here: https://dashboard.stripe.com/account/apikeys
         $('#card-success').text('');
         $('#card-errors').text('');
-        var stripe = Stripe('pk_test_51HcPgTJsb5CBFTZkFYni71CiKLy7h39XTmLwSKSzAVnR0l4ChwuPPbKBQpOt715Yemp0CRWaYT0f2OnTf70MWBX10064hZIrvV');
+        var stripe = Stripe('Enter your strip PK keys here');
         var elements = stripe.elements();
         $('#submit').prop('disabled', true);
         // Set up Stripe.js and Elements to use in checkout form
